@@ -6,10 +6,11 @@ int main() {
     cout << "num: ";
     cin >> num;
 
-    if (num / 3 == 1) {
+    if (num % 3 == 0) {
         cout << "NUM 等於三的倍數\n";
         cout << "num == " << num;
     } else {
         cout <<"NUM 不等於三的倍數";
     }
 }
+
